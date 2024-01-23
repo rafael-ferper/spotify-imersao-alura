@@ -1,0 +1,171 @@
+body {
+    background-color: #000;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+.sidebar__navigation {
+    background-color: #121212;
+    border-radius: 8px;
+}
+
+.logo {
+    background: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar .logo img {
+    width: 80px;
+}
+
+.sidebar nav ul li .fa {
+  font-size: 20px;
+  margin-right: 10px;
+  font-weight: 300;
+}
+
+.sidebar nav ul {
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+
+
+.sidebar ul li {
+    padding: 10px 0;
+}
+
+.sidebar nav ul li a{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.library {
+    display: flex;
+    justify-content: space-between;
+    min-block-size: 40px;
+    padding: 4px 8px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+    flex-direction: column;
+}
+
+.library__content {
+    display: flex;;
+    justify-content: space-between;
+}
+
+.library__button .fa {
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+    padding-right: 8px;
+}
+
+.library__button{
+    margin-right: 10px;
+    color: #b3b3b3;
+    background-color: transparent;
+    border: 0px;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
+    display: flex;
+}
+
+.fa-plus {
+    margin: 24px 10px;
+}
+
+.section__playlist {
+    background-color: #242424;
+    align-items: flex-start;
+    border-radius: 8px;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    min-block-size: 40px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0;
+    padding: 16px 20px;
+}
+
+.section-playlist__content {
+    display: flex;
+    flex-direction: column;
+    font-family: "DM Sans", sans-serif;
+}
+
+.title {
+    font-weight: 700;
+}
+
+.text {
+    padding-bottom: 14px;
+    color: #fff;
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+.section-playlist__button {
+    background-color: #fff;
+    color: #000;
+    border-radius: 9999px;
+    display: flex;
+    font-size: 0.8rem;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    border: 0px;
+    width: 113px;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.cookies {
+    margin: 25px 20px;
+}
+
+.cookies a {
+    font-family: "DM Sans", sans-serif;
+    color: #b3b3b3;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.languages button {
+    background-color: transparent;
+    border-radius: 9999px;
+    border: 1px solid #878787;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px;
+    width: 170px;
+    margin: 8px;
+    font-weight: bold;
+}
