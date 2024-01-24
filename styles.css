@@ -29,12 +29,12 @@ body {
 
 .sidebar nav ul li .fa {
   font-size: 20px;
-  margin-right: 10px;
+  margin: 0 10px 0 0;
   font-weight: 300;
 }
 
 .sidebar nav ul {
-    margin-top: 20px;
+    margin: 20px 0 0 0;
     padding: 0 20px 10px 20px;
 }
 
@@ -59,7 +59,7 @@ body {
     color: #b3b3b3;
     font-weight: 600;
     font-size: 14px;
-    margin-top: 10px;
+    margin: 10px 0 0 0;
     flex-direction: column;
 }
 
@@ -70,13 +70,13 @@ body {
 
 .library__button .fa {
     font-size: 20px;
-    margin-right: 10px;
+    margin: 0 10px 0 0;
     font-weight: 300;
-    padding-right: 8px;
+    padding: 0 8px 0 0;
 }
 
 .library__button{
-    margin-right: 10px;
+    margin: 0 10px 0 0;
     color: #b3b3b3;
     background-color: transparent;
     border: 0px;
@@ -88,10 +88,12 @@ body {
     text-transform: none;
     padding: 20px 10px;
     display: flex;
+    cursor: pointer;
 }
 
 .fa-plus {
     margin: 24px 10px;
+    cursor: pointer;
 }
 
 .section__playlist {
@@ -120,7 +122,7 @@ body {
 }
 
 .text {
-    padding-bottom: 14px;
+    padding: 0 0 14px 0;
     color: #fff;
 }
 
@@ -143,7 +145,8 @@ body {
     border: 0px;
     width: 113px;
     justify-content: center;
-    margin-top: 12px;
+    margin: 12px 0 0 0;
+    cursor: pointer;
 }
 
 .cookies {
@@ -168,4 +171,45 @@ body {
     width: 170px;
     margin: 8px;
     font-weight: bold;
+}
+
+.premium {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    justify-content: space-between;
+    padding: 15px 40px;
+}
+
+.premium__text {
+    flex-shrink: 0;
+}
+
+.premium__text p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 12px;
+    color: #fff;
+    margin: 0 0 10px 0;
+    font-weight: 400;
+}
+
+#subtitle {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.button__premium button{
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0;
+    border-radius: 40px;
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+    cursor: pointer;
 }
