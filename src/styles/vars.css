@@ -1,0 +1,25 @@
+:root{
+    --font-dm-sans: "DM Sans", sans-serif;
+
+    --bg-icon: #131313;
+
+    --bg-arrow-color: rgba(0, 0, 0, 0.7);
+
+    --bg-cards: #121212;
+
+    --color-gray: #b3b3b3;
+
+    --color-black: #000;
+
+    --color-white: #fff;
+
+    --grid-gap: 24px;
+
+    --column-count: 5;
+}
+
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (min-width: 768px) and (max-width: 1274px) {
+}
