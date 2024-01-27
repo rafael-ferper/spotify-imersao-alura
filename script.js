@@ -33,10 +33,6 @@ document.addEventListener('input', function () {
     requestApi(searchTerm);
 })
 
-searchInput.addEventListener("click", function () {
-    searchInput.value = "";
-});
-
 const greetingElement = document.getElementById('greeting')
 
 const currentHour = new Date().getHours();
